@@ -1,0 +1,59 @@
+{
+  "self": {
+    "type": {
+      "id": "060908000000",
+      "name": "AuthenticationCenter",
+      "icon": ""
+    },
+    "zkPath":"",
+    "uuid": "c6d28f1d-6eb0-4526-bc7b-bfe746f660f1",
+    "token": "a226a5f3b4d934c807098e7e60e7422f85ec70c8"
+  },
+  "MeshbluServer": {
+    "host": "115.28.241.149",
+    "port": 6565,
+    "databaseUrl": "mongodb://root:wzh83573100@115.28.241.149:37017/mhome"
+  },
+  "NodeRedServer": {
+    "host": "127.0.0.1",
+    "port": 1880,
+    "user": "admin",
+    "password": "123456"
+  },
+  "ZooKeeper": {
+    "host": "115.28.241.149",
+    "port": 2181
+  },
+  "MNet": {
+    "host": "127.0.0.1",
+    "port": 9099
+  },
+  "MAnalyzer": {
+    "remoteHost": "127.0.0.1",
+    "localPort": 9093,
+    "remoteServicePort": 9091,
+    "remoteKafkaHost": "127.0.0.1",
+    "remoteKafkaPort": 2182
+  },
+  "Collector": {
+    "defaultInterval": 300,
+    "010101000004": 60,
+    "020001000005": 60
+  },
+  "MessageTimeout": 30,
+  "ListenPort": 3000,
+  "SysPlugins": {
+    "AuthenticationCenter": [
+      "c6d28f1d-6eb0-4526-bc7b-bfe746f660f1"
+    ],
+    "DeviceManager": [
+      "8d3a201c-5b1f-41fc-bb05-dce4057c5c3f"
+    ],
+    "FlowManager": [
+      "ce81db39-b3fe-458a-ac98-99eba6b908a5"
+    ],
+    "SMS": [
+      "29492e8c-d4de-46f0-bd13-1eb8cefc9a4a"
+    ]
+  }
+}
