@@ -5,25 +5,10 @@
       "name": "authentication_center",
       "icon": ""
     },
-    "module": "./lib/authentication-center/me-authentication-center",
-    "uuid": "be408f5a-e542-4166-98ba-bc7f7752a698",
-    "token": "1fd03148910f2b7233ca437de1eafcf67b7ec954",
-    "zkPath": "/system/services/authentication_center/cluster/be408f5a-e542-4166-98ba-bc7f7752a698"
+    "module": "./lib/authentication-center/me-authentication-center"
   },
   "zookeeper": {
-    "host": "115.28.241.149",
+    "host": "tech-artisan.net",
     "port": 2181
-  },
-  "meshblu_server": {
-    "db_url": "mongodb://root:wzh83573100@115.28.241.149:37017/mhome",
-    "host": "115.28.241.149",
-    "port": 6565,
-    "message_timeout": 30
-  },
-  "nodered_server": {
-    "host": "115.28.241.149",
-    "port": 1880,
-    "user": "admin",
-    "password": "123456"
   }
 }
